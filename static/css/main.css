@@ -1,0 +1,51 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+    width: 100vw;
+    font-size: 1.5rem;
+}
+
+#card_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10rem;
+}
+
+.card  {
+    width: calc(33% - 1rem);
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.card-img {
+    width: calc(75% - 1rem);
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.card-button {
+    padding: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    #card_list {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
